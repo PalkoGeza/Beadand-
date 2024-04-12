@@ -10,34 +10,27 @@
 </head>
 <body>
 	<header>
-		<img src="./images/<?=$fejlec['kepforras']?>">
-	
-		
+	<img src="./images/<?=$fejlec['kepforras']?>">
+		<h1><?= $fejlec['cim'] ?></h1>
+		<?php if(isset($_SESSION['login'])) { ?>Bejlentkezve: <strong><?= $_SESSION['csn']." ".$_SESSION['un'] ?></strong><?php } ?>
 	</header>
     <div id="wrapper">
-		<aside id="nav">
-			<nav>
-				<ul>
+        <aside id="nav">
+            <nav>
+                <ul>
 					<?php foreach ($oldalak as $url => $oldal) { ?>
 						<?php if(! isset($_SESSION['login']) && $oldal['menü'][0] || isset($_SESSION['login']) && $oldal['menü'][1]) { ?>
 							<li<?= (($oldal == $keres) ? ' class="active"' : '') ?>>
-								<a href="<?= ($url == '/') ? '.' : ('?oldal=' . $url) ?>">
-									<?= $oldal['szoveg'] ?></a>
-								</li>
-								<?php } ?>
-								<?php } ?>
-							</ul>
-						</nav>
+							<a href="<?= ($url == '/') ? '.' : ('?oldal=' . $url) ?>">
+							<?= $oldal['szoveg'] ?></a>
+							</li>
+						<?php } ?>
+					<?php } ?>
+                </ul>
+            </nav>
         </aside>
         <div id="content">
-			<?php include("./templates/pages/{$keres['fajl']}.tpl.php"); ?>
-
-
-            
-			
-	
-   
-   
+            <?php include("./templates/pages/{$keres['fajl']}.tpl.php"); ?>
         </div>
     </div>
     <footer>

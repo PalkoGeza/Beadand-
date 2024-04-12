@@ -1,7 +1,7 @@
-CREATE DATABASE IF NOT EXISTS`labor7`
+CREATE DATABASE IF NOT EXISTS`gigyaa`
 CHARACTER SET utf8 COLLATE utf8_general_ci;
 
-USE `labor7`;
+USE `gigyaa`;
 
 CREATE TABLE IF NOT EXISTS `felhasznalok` (
   `id` int(10) unsigned NOT NULL auto_increment,

@@ -1,11 +1,9 @@
 <h3>AMENNYIBEN SEGÍTSÉGRE VAN SZÜKSÉGE A KIVÁLASZTÁSBAN</h3>
-            <video src="./video/video1.mp4" type="video/mp4" controls>
-                 
-            </video>
-    <p>Vagy akár több szimpatikus állatot is talált, kérjük a budaorsiallatmenhely@gmail.com-ra küldött e-mailben vagy Facebookon privát üzenetben vegye fel velünk a kapcsolatot, mi segíteni fogunk. Ha a menhelyen akad meg a szeme egy kutyán vagy cicán, önkénteseink segítenek a továbbiakban. Abban az esetben, ha már van kutyájuk, javasoljuk, hogy őt is hozzák ki menhelyünkre (érvényes oltásokkal), derüljön ki, hogy szimpatikusak-e egymásnak, szoktathatók, vagy nem alkalmasak az együttélésre.
-    
-    Amennyiben kisgyerek van a családban, kérjék ki tapasztalt önkénteseink véleményét a kiválasztott állat gyermekekhez való viszonyáról, és persze tanácsos kutyát és gyermeket ellenőrzött körülmények között megismertetni egymással.
-    
+<p>Vagy akár több szimpatikus állatot is talált, kérjük a budaorsiallatmenhely@gmail.com-ra küldött e-mailben vagy Facebookon privát üzenetben vegye fel velünk a kapcsolatot, mi segíteni fogunk. Ha a menhelyen akad meg a szeme egy kutyán vagy cicán, önkénteseink segítenek a továbbiakban. Abban az esetben, ha már van kutyájuk, javasoljuk, hogy őt is hozzák ki menhelyünkre (érvényes oltásokkal), derüljön ki, hogy szimpatikusak-e egymásnak, szoktathatók, vagy nem alkalmasak az együttélésre.
+        
+        Amennyiben kisgyerek van a családban, kérjék ki tapasztalt önkénteseink véleményét a kiválasztott állat gyermekekhez való viszonyáról, és persze tanácsos kutyát és gyermeket ellenőrzött körülmények között megismertetni egymással.
+        <video src="./video/video1.mp4" type="video/mp4" controls> </video>
+        
     Örökbefogadás előtt legalább 2-3 alkalommal jöjjenek el hozzánk, ezalatt megalapozott döntéssé válhat a kezdeti szimpátia.
     
     A kifutókban élő felnőtt cicáinkhoz is bátran be lehet ülni, ismerkedni, beszélgetni velük, akár több alkalommal is, mielőtt a fontos elhatározás megszületik. Macskát kizárólag benti tartás céljából adunk örökbe.
@@ -23,7 +21,7 @@
         
         <h3>KUTYÁINKAT ÉS CICÁINKAT</h3>
        
-                <img src="./images/10.jpg" alt="cica" title="video">
+                <img src="./images/10.jpg" alt="cica" >
                
        
     
